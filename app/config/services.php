@@ -10,9 +10,9 @@ use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Flash\Direct as Flash;
 use Phalcon\Logger\Adapter\File as FileLogger;
 use Phalcon\Logger\Formatter\Line as FormatterLine;
-use Vokuro\Auth\Auth;
-use Vokuro\Acl\Acl;
-use Vokuro\Mail\Mail;
+use Ultimate\Acl\Exception;
+use Ultimate\Acl\Auth;
+use Watchdog\Watchdog;
 
 /**
  * Register the global configuration as config
@@ -30,6 +30,12 @@ $di->setShared('url', function () {
     $url = new UrlResolver();
     $url->setBaseUri($config->application->baseUri);
     return $url;
+});
+
+$di->set("watchdog", function () {
+	$config = $this->getConfig();
+	
+	return new Watchdog($config);
 });
 
 /**
@@ -136,20 +142,6 @@ $di->set('flash', function () {
  */
 $di->set('auth', function () {
     return new Auth();
-});
-
-/**
- * Mail service uses AmazonSES
- */
-$di->set('mail', function () {
-    return new Mail();
-});
-
-/**
- * Access Control List
- */
-$di->set('acl', function () {
-    return new Acl();
 });
 
 /**

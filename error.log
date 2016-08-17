@@ -1,0 +1,476 @@
+[Wed Aug 17 03:55:35.310249 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP Warning:  require_once(/home/artem/Dropbox/www/test.local/vendor/autoload.php): failed to open stream: No such file or directory in /home/artem/Dropbox/www/test.local/app/config/loader.php on line 22
+[Wed Aug 17 03:55:35.310402 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP Stack trace:
+[Wed Aug 17 03:55:35.310435 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 03:55:35.310462 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP   2. include() /home/artem/Dropbox/www/test.local/public/index.php:34
+[Wed Aug 17 03:55:35.310506 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP Fatal error:  require_once(): Failed opening required '/home/artem/Dropbox/www/test.local/vendor/autoload.php' (include_path='.:/home/artem/Draytus/Projects/springtime') in /home/artem/Dropbox/www/test.local/app/config/loader.php on line 22
+[Wed Aug 17 03:55:35.311515 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP Stack trace:
+[Wed Aug 17 03:55:35.311577 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 03:55:35.311603 2016] [:error] [pid 20389] [client 127.0.0.1:48552] PHP   2. include() /home/artem/Dropbox/www/test.local/public/index.php:34
+[Wed Aug 17 03:55:48.491070 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP Warning:  require_once(/home/artem/Dropbox/www/test.local/vendor/autoload.php): failed to open stream: No such file or directory in /home/artem/Dropbox/www/test.local/app/config/loader.php on line 22
+[Wed Aug 17 03:55:48.491202 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP Stack trace:
+[Wed Aug 17 03:55:48.491235 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 03:55:48.491262 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP   2. include() /home/artem/Dropbox/www/test.local/public/index.php:34
+[Wed Aug 17 03:55:48.491305 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP Fatal error:  require_once(): Failed opening required '/home/artem/Dropbox/www/test.local/vendor/autoload.php' (include_path='.:/home/artem/Draytus/Projects/springtime') in /home/artem/Dropbox/www/test.local/app/config/loader.php on line 22
+[Wed Aug 17 03:55:48.491334 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP Stack trace:
+[Wed Aug 17 03:55:48.491358 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 03:55:48.491383 2016] [:error] [pid 20391] [client 127.0.0.1:48554] PHP   2. include() /home/artem/Dropbox/www/test.local/public/index.php:34
+[Wed Aug 17 03:57:53.812760 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP Warning:  require_once(/home/artem/Dropbox/www/test.local/vendor/autoload.php): failed to open stream: No such file or directory in /home/artem/Dropbox/www/test.local/app/config/loader.php on line 22
+[Wed Aug 17 03:57:53.812867 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP Stack trace:
+[Wed Aug 17 03:57:53.812896 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 03:57:53.812922 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP   2. include() /home/artem/Dropbox/www/test.local/public/index.php:34
+[Wed Aug 17 03:57:53.812963 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP Fatal error:  require_once(): Failed opening required '/home/artem/Dropbox/www/test.local/vendor/autoload.php' (include_path='.:/home/artem/Draytus/Projects/springtime') in /home/artem/Dropbox/www/test.local/app/config/loader.php on line 22
+[Wed Aug 17 03:57:53.812994 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP Stack trace:
+[Wed Aug 17 03:57:53.813018 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 03:57:53.813043 2016] [:error] [pid 20393] [client 127.0.0.1:48563] PHP   2. include() /home/artem/Dropbox/www/test.local/public/index.php:34
+[Wed Aug 17 04:04:35.361208 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP Fatal error:  Class 'Vokuro\\Acl\\Acl' not found in /home/artem/Dropbox/www/test.local/app/config/services.php on line 159
+[Wed Aug 17 04:04:35.361418 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP Stack trace:
+[Wed Aug 17 04:04:35.361481 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:04:35.361538 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:04:35.361593 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:04:35.361648 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:04:35.361703 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:04:35.361781 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:04:35.361836 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:04:35.361889 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:04:35.361942 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:04:35.361998 2016] [:error] [pid 20392] [client 127.0.0.1:48617] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:158-160}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:05:07.565004 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP Fatal error:  Class 'Ultimate\\Acl\\Acl' not found in /home/artem/Dropbox/www/test.local/app/config/services.php on line 159
+[Wed Aug 17 04:05:07.565129 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP Stack trace:
+[Wed Aug 17 04:05:07.565162 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:05:07.565192 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:05:07.565221 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:05:07.565250 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:05:07.565279 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:05:07.565308 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:05:07.565336 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:05:07.565364 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:05:07.565392 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:05:07.565448 2016] [:error] [pid 20389] [client 127.0.0.1:48619] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:158-160}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:07:41.932316 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP Fatal error:  Class 'Ultimate\\Acl\\Acl' not found in /home/artem/Dropbox/www/test.local/app/config/services.php on line 159
+[Wed Aug 17 04:07:41.932413 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP Stack trace:
+[Wed Aug 17 04:07:41.933014 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:07:41.933058 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:07:41.933086 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:07:41.933113 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:07:41.933140 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:07:41.933167 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:07:41.933193 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:07:41.933219 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:07:41.933244 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:07:41.933271 2016] [:error] [pid 20391] [client 127.0.0.1:48623] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:158-160}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:34.366635 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP Fatal error:  Class 'Ultimat\\Auth\\Handler' not found in /home/artem/Dropbox/www/test.local/app/config/services.php on line 159
+[Wed Aug 17 04:08:34.366737 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP Stack trace:
+[Wed Aug 17 04:08:34.366767 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:08:34.366795 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:34.366823 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:34.366852 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:34.366880 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:34.366908 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:34.366935 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:34.366961 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:34.366988 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:34.367056 2016] [:error] [pid 20392] [client 127.0.0.1:48625] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:158-160}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:52.862752 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP Fatal error:  Class 'Ultimate\\Auth\\Handler' not found in /home/artem/Dropbox/www/test.local/app/config/services.php on line 159
+[Wed Aug 17 04:08:52.862845 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP Stack trace:
+[Wed Aug 17 04:08:52.862872 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:08:52.862897 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:52.862922 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:52.862946 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:52.862971 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:08:52.862995 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:52.863019 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:52.863042 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:52.863066 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:08:52.863091 2016] [:error] [pid 20389] [client 127.0.0.1:48627] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:158-160}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:09:01.901380 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP Fatal error:  Class 'Ultimate\\Auth\\Handler' not found in /home/artem/Dropbox/www/test.local/app/config/services.php on line 159
+[Wed Aug 17 04:09:01.901478 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP Stack trace:
+[Wed Aug 17 04:09:01.901508 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:09:01.901534 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:09:01.901559 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:09:01.901584 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:09:01.901610 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:09:01.901635 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:09:01.901659 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:09:01.901682 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:09:01.901735 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:09:01.901762 2016] [:error] [pid 20390] [client 127.0.0.1:48628] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:158-160}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:10:10.108223 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP Fatal error:  Class 'Auth' not found in /home/artem/Dropbox/www/test.local/app/config/services.php on line 144
+[Wed Aug 17 04:10:10.108335 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP Stack trace:
+[Wed Aug 17 04:10:10.108366 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:10:10.108394 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:10:10.108422 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:10:10.108449 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:10:10.108475 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:10:10.108501 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:10:10.108529 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:10:10.108554 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:10:10.108580 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:10:10.108608 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:150-152}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:10:10.108635 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP  11. Ultimate\\Acl\\Handler->__construct() /home/artem/Dropbox/www/test.local/app/config/services.php:151
+[Wed Aug 17 04:10:10.108724 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP  12. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/app/config/services.php:34
+[Wed Aug 17 04:10:10.108755 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP  13. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/app/config/services.php:34
+[Wed Aug 17 04:10:10.108780 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP  14. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/app/config/services.php:34
+[Wed Aug 17 04:10:10.108807 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP  15. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/app/config/services.php:34
+[Wed Aug 17 04:10:10.108834 2016] [:error] [pid 20424] [client 127.0.0.1:48630] PHP  16. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:143-145}() /home/artem/Dropbox/www/test.local/app/config/services.php:34
+[Wed Aug 17 04:11:16.980621 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP Warning:  Phalcon\\Mvc\\Model\\MetaData\\Files::write(/home/artem/Dropbox/www/test.local/cache/metaData/meta-ultimate_acl_models_groups-groups.php): failed to open stream: Permission denied in /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php on line 44
+[Wed Aug 17 04:11:16.980912 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP Stack trace:
+[Wed Aug 17 04:11:16.980949 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:11:16.980980 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:11:16.981010 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:11:16.981041 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:11:16.981073 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:11:16.981104 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:11:16.981133 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:11:16.981162 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:11:16.981192 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:11:16.981223 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:152-154}() /home/artem/Dropbox/www/test.local/public/index.php:25
+[Wed Aug 17 04:11:16.981253 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  11. Ultimate\\Acl\\Handler->__construct() /home/artem/Dropbox/www/test.local/app/config/services.php:153
+[Wed Aug 17 04:11:16.981283 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  12. Phalcon\\Mvc\\Model::findFirst() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44
+[Wed Aug 17 04:11:16.981313 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  13. Phalcon\\Mvc\\Model\\Query\\Builder->getQuery() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44
+[Wed Aug 17 04:11:16.981343 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  14. Phalcon\\Mvc\\Model\\Query\\Builder->getPhql() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44
+[Wed Aug 17 04:11:16.981373 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  15. Phalcon\\Mvc\\Model\\MetaData->getPrimaryKeyAttributes() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44
+[Wed Aug 17 04:11:16.981403 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  16. Phalcon\\Mvc\\Model\\MetaData->readMetaDataIndex() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44
+[Wed Aug 17 04:11:16.981433 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  17. Phalcon\\Mvc\\Model\\MetaData->_initialize() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44
+[Wed Aug 17 04:11:16.981462 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  18. Phalcon\\Mvc\\Model\\MetaData\\Files->write() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44
+[Wed Aug 17 04:11:17.797015 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP Warning:  Phalcon\\Mvc\\Model\\MetaData\\Files::write(/home/artem/Dropbox/www/test.local/cache/metaData/meta-ultimate_acl_models_groups-groups.php): failed to open stream: Permission denied in /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php on line 44, referer: http://test.local/
+[Wed Aug 17 04:11:17.797096 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP Stack trace:, referer: http://test.local/
+[Wed Aug 17 04:11:17.797122 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0, referer: http://test.local/
+[Wed Aug 17 04:11:17.797179 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41, referer: http://test.local/
+[Wed Aug 17 04:11:17.797206 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41, referer: http://test.local/
+[Wed Aug 17 04:11:17.797232 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41, referer: http://test.local/
+[Wed Aug 17 04:11:17.797258 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41, referer: http://test.local/
+[Wed Aug 17 04:11:17.797284 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:25, referer: http://test.local/
+[Wed Aug 17 04:11:17.797309 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:25, referer: http://test.local/
+[Wed Aug 17 04:11:17.797334 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:25, referer: http://test.local/
+[Wed Aug 17 04:11:17.797358 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:25, referer: http://test.local/
+[Wed Aug 17 04:11:17.797385 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:152-154}() /home/artem/Dropbox/www/test.local/public/index.php:25, referer: http://test.local/
+[Wed Aug 17 04:11:17.797410 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  11. Ultimate\\Acl\\Handler->__construct() /home/artem/Dropbox/www/test.local/app/config/services.php:153, referer: http://test.local/
+[Wed Aug 17 04:11:17.797435 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  12. Phalcon\\Mvc\\Model::findFirst() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44, referer: http://test.local/
+[Wed Aug 17 04:11:17.797461 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  13. Phalcon\\Mvc\\Model\\Query\\Builder->getQuery() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44, referer: http://test.local/
+[Wed Aug 17 04:11:17.797486 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  14. Phalcon\\Mvc\\Model\\Query\\Builder->getPhql() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44, referer: http://test.local/
+[Wed Aug 17 04:11:17.797511 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  15. Phalcon\\Mvc\\Model\\MetaData->getPrimaryKeyAttributes() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44, referer: http://test.local/
+[Wed Aug 17 04:11:17.797537 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  16. Phalcon\\Mvc\\Model\\MetaData->readMetaDataIndex() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44, referer: http://test.local/
+[Wed Aug 17 04:11:17.797562 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  17. Phalcon\\Mvc\\Model\\MetaData->_initialize() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44, referer: http://test.local/
+[Wed Aug 17 04:11:17.797587 2016] [:error] [pid 20390] [client 127.0.0.1:48636] PHP  18. Phalcon\\Mvc\\Model\\MetaData\\Files->write() /home/artem/Dropbox/www/test.local/app/library/Acl/Handler.php:44, referer: http://test.local/
+[Wed Aug 17 04:11:30.497917 2016] [:error] [pid 20393] [client 127.0.0.1:48642] PHP Fatal error:  Call to undefined method Ultimate\\Acl\\Handler::isPrivate() in /home/artem/Dropbox/www/test.local/app/controllers/ControllerBase.php on line 25
+[Wed Aug 17 04:11:30.498049 2016] [:error] [pid 20393] [client 127.0.0.1:48642] PHP Stack trace:
+[Wed Aug 17 04:11:30.498085 2016] [:error] [pid 20393] [client 127.0.0.1:48642] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 04:11:30.498116 2016] [:error] [pid 20393] [client 127.0.0.1:48642] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:11:30.498147 2016] [:error] [pid 20393] [client 127.0.0.1:48642] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:11:30.498177 2016] [:error] [pid 20393] [client 127.0.0.1:48642] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 04:11:30.498208 2016] [:error] [pid 20393] [client 127.0.0.1:48642] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:32:09.603474 2016] [:error] [pid 31281] [client 127.0.0.1:52977] PHP Fatal error:  Class 'Vokuro\\Controllers\\Watchdog' not found in /home/artem/Dropbox/www/test.local/app/controllers/ControllerBase.php on line 22
+[Wed Aug 17 15:32:09.603564 2016] [:error] [pid 31281] [client 127.0.0.1:52977] PHP Stack trace:
+[Wed Aug 17 15:32:09.603597 2016] [:error] [pid 31281] [client 127.0.0.1:52977] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:32:09.603626 2016] [:error] [pid 31281] [client 127.0.0.1:52977] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:32:09.603655 2016] [:error] [pid 31281] [client 127.0.0.1:52977] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:32:09.603683 2016] [:error] [pid 31281] [client 127.0.0.1:52977] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:32:09.603713 2016] [:error] [pid 31281] [client 127.0.0.1:52977] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:33:34.704836 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP Parse error:  syntax error, unexpected 'use' (T_USE), expecting \\\\ (T_NS_SEPARATOR) or ';' or '{' in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 5
+[Wed Aug 17 15:33:34.704924 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP Stack trace:
+[Wed Aug 17 15:33:34.704955 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:33:34.704984 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:33:34.705010 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:33:34.705037 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:33:34.705064 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:33:34.705090 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:33:34.705117 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:33:34.705142 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:33:34.705169 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:33:34.731304 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:33:34.731368 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:33:34.731399 2016] [:error] [pid 20424] [client 127.0.0.1:52988] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:34:55.771872 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP Parse error:  syntax error, unexpected 'use' (T_USE), expecting \\\\ (T_NS_SEPARATOR) or ';' or '{' in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 5
+[Wed Aug 17 15:34:55.772011 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP Stack trace:
+[Wed Aug 17 15:34:55.772049 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:34:55.772081 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:34:55.772110 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:34:55.772139 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:34:55.772168 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:34:55.772196 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:34:55.772224 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:34:55.772251 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:34:55.772279 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:34:55.772308 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:34:55.772336 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:34:55.772365 2016] [:error] [pid 20389] [client 127.0.0.1:52993] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:35:23.450890 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP Fatal error:  Class 'Phalcon\\Component' not found in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 14
+[Wed Aug 17 15:35:23.451014 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP Stack trace:
+[Wed Aug 17 15:35:23.451048 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:35:23.451079 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:35:23.451108 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:35:23.451137 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:35:23.451198 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:35:23.451227 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:35:23.451255 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:35:23.451282 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:35:23.451310 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:35:23.451338 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:35:23.451366 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:35:23.451393 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:35:23.451420 2016] [:error] [pid 31281] [client 127.0.0.1:52999] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:36:31.861834 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP Fatal error:  Class 'Phalcon\\Mvc\\Component' not found in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 14
+[Wed Aug 17 15:36:31.861929 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP Stack trace:
+[Wed Aug 17 15:36:31.861958 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:36:31.861986 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:31.862013 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:31.862040 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:31.862068 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:31.862095 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:31.862120 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:31.862146 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:31.862172 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:31.862200 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:31.862226 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:36:31.862253 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:36:31.862310 2016] [:error] [pid 21216] [client 127.0.0.1:53000] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:36:59.769043 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP Fatal error:  Trait 'Watchdog\\Watchdog\\Traits\\RulesCRUD' not found in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 15
+[Wed Aug 17 15:36:59.769147 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP Stack trace:
+[Wed Aug 17 15:36:59.769176 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:36:59.769202 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:59.769229 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:59.769256 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:59.769282 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:36:59.769310 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:59.769336 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:59.769361 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:59.769386 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:59.769413 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:36:59.769439 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:36:59.769463 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:36:59.769487 2016] [:error] [pid 31477] [client 127.0.0.1:53001] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:37:23.751534 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Traits/RulesCRUD.php on line 38
+[Wed Aug 17 15:37:23.751625 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP Stack trace:
+[Wed Aug 17 15:37:23.751655 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:37:23.751682 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:37:23.751710 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:37:23.751737 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:37:23.751765 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:37:23.751792 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:37:23.751852 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:37:23.751878 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:37:23.751902 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:37:23.751928 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:37:23.751954 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:37:23.751978 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:37:23.752003 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:37:23.752026 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP  14. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:15
+[Wed Aug 17 15:37:23.752050 2016] [:error] [pid 31474] [client 127.0.0.1:53004] PHP  15. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:15
+[Wed Aug 17 15:38:08.963865 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Traits/RulesCRUD.php on line 38
+[Wed Aug 17 15:38:08.963953 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP Stack trace:
+[Wed Aug 17 15:38:08.963982 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:38:08.964009 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:38:08.964036 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:38:08.964062 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:38:08.964089 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:38:08.964116 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:38:08.964142 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:38:08.964167 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:38:08.964192 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:38:08.964219 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:38:08.964246 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:38:08.964271 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:38:08.964328 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:38:08.964354 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP  14. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:15
+[Wed Aug 17 15:38:08.964379 2016] [:error] [pid 20424] [client 127.0.0.1:53005] PHP  15. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:15
+[Wed Aug 17 15:40:41.683275 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Traits/ConditionsCRUD.php on line 16
+[Wed Aug 17 15:40:41.683372 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP Stack trace:
+[Wed Aug 17 15:40:41.683402 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:40:41.683430 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:40:41.683459 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:40:41.683487 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:40:41.683515 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:40:41.683542 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:40:41.683569 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:40:41.683595 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:40:41.683622 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:40:41.683650 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:40:41.683677 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:40:41.683703 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:40:41.683729 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:40:41.683753 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP  14. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:16
+[Wed Aug 17 15:40:41.683778 2016] [:error] [pid 31312] [client 127.0.0.1:53052] PHP  15. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:16
+[Wed Aug 17 15:41:48.679983 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Traits/ConditionsCRUD.php on line 16
+[Wed Aug 17 15:41:48.680064 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP Stack trace:
+[Wed Aug 17 15:41:48.680094 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:41:48.680122 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:41:48.680184 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:41:48.680211 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:41:48.680237 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:41:48.680262 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:41:48.680287 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:41:48.680311 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:41:48.680335 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:41:48.680361 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:41:48.680386 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:41:48.680410 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:41:48.680434 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:41:48.680457 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP  14. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:16
+[Wed Aug 17 15:41:48.680481 2016] [:error] [pid 20389] [client 127.0.0.1:53053] PHP  15. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:16
+[Wed Aug 17 15:44:57.231763 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP Parse error:  syntax error, unexpected 'new' (T_NEW) in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Traits/ConditionsCRUD.php on line 16
+[Wed Aug 17 15:44:57.231866 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP Stack trace:
+[Wed Aug 17 15:44:57.231898 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:44:57.231926 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:44:57.231954 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:44:57.231980 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:44:57.232007 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:44:57.232034 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:44:57.232060 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:44:57.232086 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:44:57.232143 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:44:57.232172 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:44:57.232196 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:44:57.232221 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:44:57.232244 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:44:57.232267 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP  14. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:19
+[Wed Aug 17 15:44:57.232291 2016] [:error] [pid 31713] [client 127.0.0.1:53088] PHP  15. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:19
+[Wed Aug 17 15:46:21.431441 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Traits/ConditionsCRUD.php on line 67
+[Wed Aug 17 15:46:21.431540 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP Stack trace:
+[Wed Aug 17 15:46:21.431569 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:46:21.431598 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:46:21.431625 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:46:21.431653 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:46:21.431679 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:46:21.431706 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:46:21.431732 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:46:21.431758 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:46:21.431784 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:46:21.431811 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:46:21.431837 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:46:21.431862 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:46:21.431888 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:46:21.431913 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP  14. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:19
+[Wed Aug 17 15:46:21.431972 2016] [:error] [pid 31281] [client 127.0.0.1:53090] PHP  15. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:19
+[Wed Aug 17 15:47:26.678803 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET) in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Traits/PoliciesCRUD.php on line 40
+[Wed Aug 17 15:47:26.678898 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP Stack trace:
+[Wed Aug 17 15:47:26.678928 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:47:26.678956 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:26.678983 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:26.679010 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:26.679038 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:26.679065 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:26.679091 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:26.679117 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:26.679143 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:26.679170 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:26.679196 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:47:26.679223 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:47:26.681662 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:47:26.681757 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP  14. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:23
+[Wed Aug 17 15:47:26.681791 2016] [:error] [pid 21216] [client 127.0.0.1:53093] PHP  15. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:23
+[Wed Aug 17 15:47:49.176403 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP Fatal error:  Could not find trait Watchdog\\RulesCRUD in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 47
+[Wed Aug 17 15:47:49.176476 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP Stack trace:
+[Wed Aug 17 15:47:49.176507 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:47:49.176535 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:49.176561 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:49.176588 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:49.176722 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:47:49.176755 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:49.176780 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:49.176805 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:49.176831 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:49.176858 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:47:49.176883 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:47:49.176907 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:47:49.176931 2016] [:error] [pid 31477] [client 127.0.0.1:53094] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:48:38.140785 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP Fatal error:  Could not find trait Watchdog\\RulesCRUD in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 47
+[Wed Aug 17 15:48:38.140886 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP Stack trace:
+[Wed Aug 17 15:48:38.140918 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:48:38.140947 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:48:38.140975 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:48:38.141003 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:48:38.141030 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:48:38.141057 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:48:38.141084 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:48:38.141109 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:48:38.141135 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:48:38.141164 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:48:38.141190 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:48:38.141217 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:48:38.141277 2016] [:error] [pid 31474] [client 127.0.0.1:53095] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:51:23.767208 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP Fatal error:  Trait 'Watchdog\\RuleTrait' not found in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 15
+[Wed Aug 17 15:51:23.767298 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP Stack trace:
+[Wed Aug 17 15:51:23.767328 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:51:23.767356 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:51:23.767384 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:51:23.767443 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:51:23.767470 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:51:23.767497 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:51:23.767524 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:51:23.767550 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:51:23.767576 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:51:23.767604 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:51:23.767631 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:51:23.767658 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:51:23.767683 2016] [:error] [pid 20424] [client 127.0.0.1:53106] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:52:20.192337 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP Fatal error:  An alias was defined for Watchdog\\Traits\\RuleTrait::__construct but this method does not exist in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 51
+[Wed Aug 17 15:52:20.192433 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP Stack trace:
+[Wed Aug 17 15:52:20.192462 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:52:20.192490 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:52:20.192518 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:52:20.192545 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:52:20.192572 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:52:20.192628 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:52:20.192704 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:52:20.192734 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:52:20.192773 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:52:20.192800 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:52:20.192825 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:52:20.192850 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:52:20.192874 2016] [:error] [pid 31712] [client 127.0.0.1:53107] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:53:10.539672 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP Fatal error:  Trait method readRule has not been applied, because there are collisions with other trait methods on Watchdog\\Watchdog in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 51
+[Wed Aug 17 15:53:10.539752 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP Stack trace:
+[Wed Aug 17 15:53:10.539783 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:53:10.539811 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:10.539837 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:10.539864 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:10.539890 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:10.539916 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:10.539942 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:10.539967 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:10.539993 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:10.540020 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:10.540045 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:53:10.540071 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:53:10.540096 2016] [:error] [pid 31312] [client 127.0.0.1:53110] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:53:43.778300 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP Fatal error:  Trait method readRule has not been applied, because there are collisions with other trait methods on Watchdog\\Watchdog in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 39
+[Wed Aug 17 15:53:43.778392 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP Stack trace:
+[Wed Aug 17 15:53:43.778421 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:53:43.778449 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:43.778476 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:43.778504 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:43.778533 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:53:43.778561 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:43.778587 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:43.778612 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:43.778638 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:43.778665 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:53:43.778692 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP  11. spl_autoload_call() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:53:43.778718 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP  12. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:53:43.778743 2016] [:error] [pid 20389] [client 127.0.0.1:53111] PHP  13. Phalcon\\Loader->autoLoad() /home/artem/Dropbox/www/test.local/public/index.php:38
+[Wed Aug 17 15:54:23.807508 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP Fatal error:  Call to undefined function Watchdog\\__cconstruct() in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 33
+[Wed Aug 17 15:54:23.807599 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP Stack trace:
+[Wed Aug 17 15:54:23.807629 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:54:23.807658 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:23.807684 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:23.807711 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:23.807737 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:23.807764 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:23.807821 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:23.807847 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:23.807872 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:23.807898 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:23.807923 2016] [:error] [pid 20393] [client 127.0.0.1:53113] PHP  11. Watchdog\\Watchdog->__construct() /home/artem/Dropbox/www/test.local/app/config/services.php:38
+[Wed Aug 17 15:54:51.775957 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP Fatal error:  Call to undefined function Watchdog\\__cconstruct() in /home/artem/Dropbox/www/test.local/app/library/Watchdog/Watchdog.php on line 33
+[Wed Aug 17 15:54:51.776037 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP Stack trace:
+[Wed Aug 17 15:54:51.776066 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   1. {main}() /home/artem/Dropbox/www/test.local/public/index.php:0
+[Wed Aug 17 15:54:51.776093 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   2. Phalcon\\Mvc\\Application->handle() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:51.776118 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   3. Phalcon\\Dispatcher->dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:51.776144 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   4. Phalcon\\Dispatcher->_dispatch() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:51.776170 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   5. Vokuro\\Controllers\\ControllerBase->beforeExecuteRoute() /home/artem/Dropbox/www/test.local/public/index.php:41
+[Wed Aug 17 15:54:51.776195 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   6. Phalcon\\Di\\Injectable->__get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:51.776220 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   7. Phalcon\\Di->getShared() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:51.776244 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   8. Phalcon\\Di->get() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:51.776268 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP   9. Phalcon\\Di\\Service->resolve() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:51.776294 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP  10. Closure->{closure:/home/artem/Dropbox/www/test.local/app/config/services.php:35-39}() /home/artem/Dropbox/www/test.local/public/index.php:22
+[Wed Aug 17 15:54:51.776319 2016] [:error] [pid 31281] [client 127.0.0.1:53114] PHP  11. Watchdog\\Watchdog->__construct() /home/artem/Dropbox/www/test.local/app/config/services.php:38

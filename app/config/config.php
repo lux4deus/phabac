@@ -9,7 +9,7 @@ return new Config([
         'host' => '127.0.0.1',
         'username' => 'root',
         'password' => 'root',
-        'dbname' => 'vokuro'
+        'dbname' => 'watchdog'
     ],
     'application' => [
         'controllersDir' => APP_PATH . '/controllers/',
@@ -17,6 +17,7 @@ return new Config([
         'formsDir'       => APP_PATH . '/forms/',
         'viewsDir'       => APP_PATH . '/views/',
         'libraryDir'     => APP_PATH . '/library/',
+        'watchdogDir'    => APP_PATH . '/library/Watchdog',
         'pluginsDir'     => APP_PATH . '/plugins/',
         'cacheDir'       => BASE_PATH . '/cache/',
         'baseUri'        => '/',
