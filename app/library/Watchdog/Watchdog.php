@@ -2,8 +2,10 @@
 
 namespace Watchdog;
 
-use Phalcon\Config\Adapter\Yaml as ymlProvider;
 use Phalcon\Mvc\User\Component;
+
+use Watchdog\Services\ABACManager;
+use Watchdog\Services\Request;
 
 use Watchdog\Traits\RuleTrait;
 use Watchdog\Traits\ConditionTrait;
@@ -30,28 +32,8 @@ class Watchdog extends Component
 		$this->__pconstruct();
 	}
 	
-	public function checkAccess()
+	public function checkAccess($policies, $env, $user)
 	{
-		
-	}
-	
-	private function exportACL()
-	{
-		
-	}
-	
-	private function importACL()
-	{
-		
-	}
-	
-	private function exportABAC()
-	{
-		
-	}
-	
-	private function importABAC()
-	{
-		
+		return ABACManager::create((array)$policies)->validate(new Request($user, $env));
 	}
 }

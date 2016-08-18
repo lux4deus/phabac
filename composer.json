@@ -24,6 +24,7 @@
     "require": {
         "php": ">=5.5",
         "swiftmailer/swiftmailer": "^5.4",
-        "amazonwebservices/aws-sdk-for-php": "~1.0"
+        "amazonwebservices/aws-sdk-for-php": "~1.0",
+        "illuminate/support": "^5.2"
     }
 }

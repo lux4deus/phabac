@@ -65,4 +65,9 @@ trait RuleTrait
 	{
 		return (isset($this->rules[(int)$id])) ? array_splice($this->rules, (int)$id, 1) : false;
 	}
+	
+	public function getRulesYML()
+	{
+		
+	}
 }

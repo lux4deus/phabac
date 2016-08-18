@@ -4,8 +4,6 @@ namespace Vokuro\Controllers;
 use Phalcon\Mvc\Controller;
 use Phalcon\Mvc\Dispatcher;
 
-use Watchdog\Services\ABACManager;
-use Watchdog\Services\Request;
 use Watchdog\Entities\User;
 use Watchdog\Entities\Environment;
 
@@ -37,16 +35,20 @@ class ControllerBase extends Controller
         $env->_controller = $di->getControllerName();
         $env->_action = $di->getActionName();
         
-        $env->day = "18";
+        $env->day = "16";
+        $env->ip = "blah";
         
-        $user = new User();
+        $user = ($identity = $this->auth->getIdentity()) && $identity ? Users::findFirst($identity['id']) : new User();
         
         try {
 			$policies = (array)$this->calculateRight(); //we can add any common policies to this array
 			
-			if (ABACManager::create($policies)->validate(new Request($user, $env)) === false) throw new \Exception("Access denied");
+			if ($this->watchdog->checkAccess($policies, $env, $user) === false) throw new \Exception("Access denied");
 		} catch (\Exception $e) {
-			return $this->accessDenied();
+			//if ($this->_identity) $this->response->redirect($this->config->application->page_403)->send();
+            //else $this->response->redirect($this->config->application->login_page)->send();
+            
+            return $this->accessDenied();
 		}
     }
     

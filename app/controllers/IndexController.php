@@ -25,17 +25,17 @@ class IndexController extends ControllerBase
     {
 		$policies = [];
 		
-		$policies[] = $this->watchdog->createPolicy("ACCEPT", "Access to the test action", "Access to the test action", [
-			$this->watchdog->createRule("Check env IP", "IP", [
-				$this->watchdog->createCondition("$.environment.day", $this->watchdog->operator->equals, "18"),
-				$this->watchdog->createCondition("$.environment._action", $this->watchdog->operator->equals, "test"),
+		$policies[] = $this->watchdog->createPolicy("ACCEPT", "Access to the index action", "Access to the index action", [
+			$this->watchdog->createRule("Check env string", "Check an str", [
+				$this->watchdog->createCondition("$.environment.ip", $this->watchdog->operator->equals, "blah"),
+				$this->watchdog->createCondition("$.environment._action", $this->watchdog->operator->equals, "index"),
 			]),
 		]);
 		
 		$policies[] = $this->watchdog->createPolicy("ACCEPT", "Access to the test action", "Access to the test action", [
-			$this->watchdog->createRule("Check env IP", "IP", [
-				$this->watchdog->createCondition("$.environment.day", $this->watchdog->operator->equals, "17"),
-				$this->watchdog->createCondition("$.environment._action", $this->watchdog->operator->equals, "index"),
+			$this->watchdog->createRule("Check env day", "day", [
+				$this->watchdog->createCondition("$.environment.day", $this->watchdog->operator->equals, "16"),
+				$this->watchdog->createCondition("$.environment._action", $this->watchdog->operator->equals, "test"),
 			]),
 		]);
 		

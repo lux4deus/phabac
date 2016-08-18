@@ -27,7 +27,7 @@ class Condition implements \Watchdog\Contracts\Validatable
     {
         $leftValue  = $request->getValue($this->left);
         $rightValue = $request->getValue($this->right);
-        
+       
         return $this->operator->execute($leftValue, $rightValue);
     }
 }
