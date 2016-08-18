@@ -25,6 +25,8 @@ class ABACManager implements \Watchdog\Contracts\Validatable
                 throw new InvalidArgumentException("Policy response type is not recognized!");
             }
         });
+        
+        return $this;
     }
     
     public static function create(array $policies)

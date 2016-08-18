@@ -20,6 +20,7 @@ return new Config([
         'watchdogDir'    => APP_PATH . '/library/Watchdog',
         'pluginsDir'     => APP_PATH . '/plugins/',
         'cacheDir'       => BASE_PATH . '/cache/',
+        'aclDir'         => BASE_PATH . "/cache/acl",
         'baseUri'        => '/',
         'publicUrl'      => 'vokuro.phalconphp.com',
         'cryptSalt'      => 'eEAfR|_&G&f,+vU]:jFr!!A&+71w1Ms9~8_4L!<@[N@DyaIP_2My|:+.u>/6m,$D'

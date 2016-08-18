@@ -12,6 +12,7 @@ use Phalcon\Logger\Adapter\File as FileLogger;
 use Phalcon\Logger\Formatter\Line as FormatterLine;
 use Ultimate\Acl\Exception;
 use Ultimate\Acl\Auth;
+use Ultimate\Acl\Handler as Acl;
 use Watchdog\Watchdog;
 
 /**
@@ -142,6 +143,13 @@ $di->set('flash', function () {
  */
 $di->set('auth', function () {
     return new Auth();
+});
+
+/**
+ * Access Control List
+ */
+$di->set('acl', function () {
+    return new Acl();
 });
 
 /**

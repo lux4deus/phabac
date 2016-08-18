@@ -7,19 +7,13 @@ use Watchdog\Entities\User;
 use Watchdog\Entities\Environment;
 
 class Request
-{
-    protected $action;
-    
-    protected $resource;
-    
+{   
     protected $user;
     
     protected $environment;
     
-    public function __construct($action, $resource, User $user, Environment $env)
+    public function __construct(User $user, Environment $env)
     {
-        $this->action = $action;
-        $this->resource = $ressource;
         $this->user = $user;
         $this->environment = $env;
     }
