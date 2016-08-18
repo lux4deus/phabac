@@ -1,17 +1,26 @@
 <?php
 namespace Vokuro\Controllers;
-
+use Ultimate\Acl\Models\News;
 /**
  * Display the default index page.
  */
 class IndexController extends ControllerBase
 {
-
     /**
      * Default action. Set the public layout (layouts/public.volt)
      */
     public function indexAction()
     {
+		$newsItem = News::findFirst([
+			'conditions' => "access & ?0 AND owner = ?1",
+			'bind' => [self::OWNER_CAN_READ, $this->user->id]
+		]);
+		
+		if ($newsItem instanceof News) print("Новость найдена, ее текст: {$newsItem->text}");
+		else print("Нет таких новостей");
+		
+		//if ($newsItem->access & self::OWNER_CAN_READ && $newsItem->owner == $this->user->id) print($newsItem->text);
+
         $this->view->setVar('logged_in', is_array($this->auth->getIdentity()));
         $this->view->setTemplateBefore('public');
     }
@@ -27,7 +36,6 @@ class IndexController extends ControllerBase
 		
 		$policies[] = $this->watchdog->createPolicy("ACCEPT", "Access to the index action", "Access to the index action", [
 			$this->watchdog->createRule("Check env string", "Check an str", [
-				$this->watchdog->createCondition("$.environment.ip", $this->watchdog->operator->equals, "blah"),
 				$this->watchdog->createCondition("$.environment._action", $this->watchdog->operator->equals, "index"),
 			]),
 		]);
